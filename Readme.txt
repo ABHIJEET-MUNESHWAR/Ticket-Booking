@@ -33,7 +33,7 @@ Ticket-Booking\database\book.sql
 
 4) Please replace below email to email of your website admin, so that admin will receive email on every seat book.
 File: Ticket-Booking/register.php
-Replce bewlow
+Replce below
 mail ("openingknots@gmail.com", "New ticket booked", $email_content);
 
 By

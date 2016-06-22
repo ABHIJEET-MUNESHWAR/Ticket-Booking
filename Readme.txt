@@ -31,4 +31,11 @@ Note: Change the username & password in db_login.php according to your username 
 3) Import tables in 'book' database. Go to import tab in WAMP & give path of below file to import.
 Ticket-Booking\database\book.sql
 
-4) Done.
+4) Please replace below email to email of your website admin, so that admin will receive email on every seat book.
+File: Ticket-Booking/register.php
+Replce bewlow
+mail ("openingknots@gmail.com", "New ticket booked", $email_content);
+
+By
+mail ("admin-email@gmail.com", "New ticket booked", $email_content);
+5) Done.

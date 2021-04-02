@@ -142,7 +142,7 @@ $messageUser = "Your ticket is booked. The seat number is: " . $seatNumber;
 	
 // send the email to admin
 //Please replace below email to email of your website admin, so that admin will receive email on every seat book.
-mail ("openingknots@gmail.com", "New ticket booked", $email_content);
+mail ("admin-email@gmail.com", "New ticket booked", $email_content);
 
 //send email to user
 mail ($email, "Ticket booked", $messageUser);
